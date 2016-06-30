@@ -50,7 +50,7 @@ crisp
 - So for the time being you probably want these fresh from source, or via my
 helpers. YMMV.
 
-## Finally
+## Local Adaption
 
 - mtheme and metropolis changed a bit since I first used
 - I started with a local modification I called m2; the package is still in
@@ -58,4 +58,15 @@ the launchpad repo
 - I generally include a file `header.tex` from the YAML for color, font,
   ... tweaking at the \LaTeX level, but as these are presentation-specific I
   didn't include any changes here.
+
+_ _ _
+
+Breakout page
+
+##
+
+### Going Forward
+
+- Questions etc: Open issue tickets
+- Pull requests welcome
 

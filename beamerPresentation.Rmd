@@ -1,0 +1,61 @@
+---
+author: Your Name Here and Some Other Person
+title: "Something really clever here: \\newline And maybe a second line"
+subtitle: You can also have a subtitle
+date: "2016-07-01"
+output:
+  beamer_presentation:
+    keep_tex: no
+    theme: metropolis
+    latex_engine: xelatex
+    slide_level: 2
+    incremental: no
+fontsize: 12pt
+classoption: compress
+---
+
+```{r,setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+# Section
+
+## Slide
+
+### Subtitle
+
+- Point A
+- Point B
+- Point C
+
+# Resources
+
+## Metropolis
+
+- https://github.com/matze/mtheme -- Official GitHub Repo of
+  Metropolis (formerly mtheme); older version in TeXLive
+- https://github.com/eddelbuettel/pkg-latex-metropolis -- My local GitHub Repo for an Ubuntu package of Metropolis (formerly mtheme)
+- https://github.com/eddelbuettel/pkg-fonts-fira -- My local GitHub Repo for an Ubuntu package] for the Fira font
+
+## Ubuntu and Launchpad
+
+- The packages which can be built (ie not Fira as it needs external fonts
+  which we cannot download during build) are
+  in this repo: https://launchpad.net/~edd/+archive/ubuntu/misc/+packages
+- If you're not on Ubuntu, it is probably more work to get
+    - Metropolis into your \LaTeX environment
+    - the Fira font into your \LaTeX environment
+- I *did* try without (on plain Ubuntu 16.04) and it _builds_ but looks less
+crisp
+- So for the time being you probably want these fresh from source, or via my
+helpers. YMMV.
+
+## Finally
+
+- mtheme and metropolis changed a bit since I first used
+- I started with a local modification I called m2; the package is still in
+the launchpad repo
+- I generally include a file `header.tex` from the YAML for color, font,
+  ... tweaking at the \LaTeX level, but as these are presentation-specific I
+  didn't include any changes here.
+

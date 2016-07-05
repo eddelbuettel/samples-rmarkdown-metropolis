@@ -3,7 +3,7 @@
 
 Example for a [Metropolis](https://github.com/matze/mtheme)-themed
 [RMarkdown](http://rmarkdown.rstudio.com/)-driven LaTeX
-[Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX) presentation. 
+[Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)) presentation. 
 
 ### About
 

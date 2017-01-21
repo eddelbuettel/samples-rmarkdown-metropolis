@@ -30,7 +30,7 @@ knitr::opts_chunk$set(cache=TRUE)
 - Point B
 - Point C
 
-# Resources
+# Principal Resources
 
 ## Metropolis
 
@@ -67,7 +67,38 @@ the launchpad repo
 
 _ _ _
 
-\LARGE Breakout page example
+\LARGE Breakout page 
+
+## Using LaTeX Parts: Equations
+
+### Linear Model
+
+$$ \hat{\beta} = \text{argmin}_{b \in \mathbb{R}} S(b) = \left( \frac{1}{n} \sum_{i=1}^n x_i x_i^T \right)^{-1} \cdot \frac{1}{n} \sum_{i=1}^n x_i y_i  $$
+or in matrix form
+
+$$ \hat{\beta} = (X^TX)^{-1} X^T y $$
+
+
+## Using LaTeX Parts: Blocks
+
+As one example of falling back into \LaTeX, consider the example of
+three different block environments are pre-defined and may be styled
+with an optional background color.
+
+<!-- this sets the background -->
+\metroset{block=fill} 
+
+\begin{block}{Default}
+  Block content.
+\end{block}
+
+\begin{alertblock}{Alert}
+  Block content.
+\end{alertblock}
+
+\begin{exampleblock}{Example}
+  Block content.
+\end{exampleblock}
 
 ## Finally
 

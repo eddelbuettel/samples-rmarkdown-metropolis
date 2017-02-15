@@ -32,7 +32,7 @@ An animated gif containing all pages of the very simple example included here fo
 As an aside, creating the gif is trivial, I used 
 
 ```bash
-convert -delay 250 -geometry 480x360 beamerPresentation.pdf beamerPresentation.gif`
+convert -delay 250 -geometry 480x360 beamerPresentation.pdf beamerPresentation.gif
 ```
 
 where `convert` is a component of [imagemagick](http://www.imagemagick.org/); you can probably rely on

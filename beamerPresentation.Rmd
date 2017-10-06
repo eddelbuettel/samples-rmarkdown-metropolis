@@ -10,10 +10,11 @@ output:
     latex_engine: xelatex
     slide_level: 2
     incremental: no
-    includes:
-      in_header: header.tex
 fontsize: 12pt
 classoption: compress
+header-includes:
+  \setbeamercolor{frametitle}{bg=gray}
+  \hypersetup{colorlinks,citecolor=orange,filecolor=red,linkcolor=brown,urlcolor=blue}
 ---
 
 ```{r,setup, include=FALSE}

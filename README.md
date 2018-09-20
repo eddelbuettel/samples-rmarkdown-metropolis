@@ -5,7 +5,14 @@ Example for a [Metropolis](https://github.com/matze/mtheme)-themed
 [RMarkdown](http://rmarkdown.rstudio.com/)-driven LaTeX
 [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)) presentation. 
 
+### Note
+
+If you are interested in this, you probably want to look at the [binb](https://github.com/eddelbuettel/binb) package which 
+implements Metropolis (and more) directly from RMarkdown.
+
 ### About
+
+_NB: This dates mostly from 2016. For a more recent and more complete alternative, see [binb](https://github.com/eddelbuettel/binb)._
 
 For the last two or so years, I have been using
 [mtheme](https://github.com/matze/mtheme) (and/or a local variant I called
@@ -41,6 +48,11 @@ where `convert` is a component of [imagemagick](http://www.imagemagick.org/); yo
 ### Status
 
 This is a somewhat static example which may not get updated over time.
+
+### Note
+
+If you are interested in this, you probably want to look at the [binb](https://github.com/eddelbuettel/binb) package which 
+implements Metropolis (and more) directly from RMarkdown.
 
 ### Author
 
